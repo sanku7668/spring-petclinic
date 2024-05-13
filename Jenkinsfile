@@ -1,4 +1,4 @@
-pipieline {
+pipeline {
 	agent {  label 'JDK17' }
 	options { 
 		  timeout(time: 1, unit: 'HOURS')
